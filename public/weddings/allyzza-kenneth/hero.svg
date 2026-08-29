@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-label="Placeholder wedding portrait">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ebe4d6"/>
+      <stop offset="100%" stop-color="#cfc3ad"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#fff)"/>
+  <ellipse cx="600" cy="1280" rx="420" ry="90" fill="#b5a78c" opacity="0.35"/>
+  <circle cx="480" cy="620" r="86" fill="#d8cbb6"/>
+  <circle cx="720" cy="600" r="90" fill="#e2d6c2"/>
+  <rect x="390" y="700" width="180" height="320" rx="90" fill="#8a7a5a"/>
+  <rect x="630" y="690" width="190" height="340" rx="95" fill="#9aa88a"/>
+  <path d="M200 220 C420 180, 780 180, 1000 240" fill="none" stroke="#8a7a5a" stroke-width="1.5" opacity="0.45"/>
+</svg>

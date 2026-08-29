@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img">
+  <rect width="900" height="1200" fill="#e8dfd0"/>
+  <circle cx="380" cy="420" r="64" fill="#d4c4a8"/>
+  <circle cx="530" cy="410" r="68" fill="#c4b49a"/>
+  <rect x="310" y="490" width="150" height="260" rx="75" fill="#9aa88a"/>
+  <rect x="460" y="480" width="150" height="270" rx="75" fill="#8a7a5a"/>
+  <text x="450" y="1060" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#6b5e48">Couple · 2</text>
+</svg>

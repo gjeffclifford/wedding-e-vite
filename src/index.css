@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --wedding-background: #ffffff;   /* Beautiful Navy */
+  --wedding-foreground: #252a57;  /* White */
+  --wedding-primary: #252a57;     /* Soft cool white */
+  --wedding-secondary: #4b6c99;   /* Kashmir Blue */
+  --wedding-accent: #84a0c1;      /* Marlborough Blue */
+  --wedding-muted: #6886ad;       /* Heather Blue */
+
+  --wedding-font-heading: "Cormorant Garamond", serif;
+  --wedding-font-body: "DM Sans", sans-serif;
+  --wedding-font-script: "Great Vibes", cursive;
+}
+
+@theme {
+  --font-heading: var(--wedding-font-heading);
+  --font-body: var(--wedding-font-body);
+  --font-script: var(--wedding-font-script);
+  --color-beautiful-navy: var(--wedding-background);
+  --color-ink: var(--wedding-foreground);
+  --color-gold: var(--wedding-foreground);
+  --color-champagne: var(--wedding-secondary);
+  --color-sage: var(--wedding-accent);
+  --color-mist: var(--wedding-muted);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--wedding-background, #f6f1e8);
+  color: var(--wedding-foreground, #3a342c);
+  font-family: var(--wedding-font-body, "DM Sans", sans-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+:focus-visible {
+  outline: 2px solid var(--wedding-primary, #8a7a5a);
+  outline-offset: 3px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  @keyframes fadeIn {
+
+    from,
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

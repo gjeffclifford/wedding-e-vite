@@ -21,7 +21,7 @@ export const allyzzaKennethWedding: WeddingConfig = {
   theme: defaultWeddingTheme,
 
   hero: {
-    image: asset("hero.svg"),
+    image: asset("wedding.png"),
     familiesLine: "Together with their loving families & friends",
     inviteLine: "joyfully invite you to celebrate\ntheir wedding",
     openButtonLabel: "Open Invitation",

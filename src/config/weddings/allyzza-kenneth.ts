@@ -156,22 +156,22 @@ with the people we love.`,
 
   gallery: [
     {
-      src: asset("couple-1.svg"),
+      src: "https://placehold.co/600x400",
       alt: "Placeholder portrait of Allyzza and Kenneth together",
       caption: "A quiet afternoon",
     },
     {
-      src: asset("couple-2.svg"),
+      src: "https://placehold.co/600x400",
       alt: "Placeholder portrait of Allyzza and Kenneth walking",
       caption: "Side by side",
     },
     {
-      src: asset("couple-3.svg"),
+      src: "https://placehold.co/600x400",
       alt: "Placeholder portrait of Allyzza and Kenneth at dusk",
       caption: "Golden hour",
     },
     {
-      src: asset("couple-4.svg"),
+      src: "https://placehold.co/600x400",
       alt: "Placeholder portrait of Allyzza and Kenneth smiling",
       caption: "The beginning",
     },

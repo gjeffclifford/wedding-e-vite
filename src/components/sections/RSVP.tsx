@@ -162,7 +162,7 @@ export function RSVP({ wedding }: RSVPProps) {
             {isValidationMessage(feedback) ? feedback : "Something went wrong. Please try again."}
           </p>
         ) : null}
-        <Button type="submit" disabled={isSubmitting} className="w-full">
+        <Button type="submit" disabled={isSubmitting} className="w-full text-beautiful-navy">
           {isSubmitting ? "Submitting..." : "Confirm RSVP"}
         </Button>
       </form>

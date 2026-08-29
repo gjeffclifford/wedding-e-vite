@@ -53,7 +53,7 @@ export function SnapAndShare({ wedding }: SnapAndShareProps) {
         >
           {copied === "hashtag" ? "Hashtag copied!" : "Copy Hashtag"}
         </Button>
-        <Button onClick={shareInvitation}>
+        <Button onClick={shareInvitation} className="text-beautiful-navy">
           {canShare ? "Share Invitation" : copied === "link" ? "Link copied!" : "Copy Invitation Link"}
         </Button>
       </div>
